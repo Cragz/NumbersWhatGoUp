@@ -1,0 +1,56 @@
+name: NumbersWhatGoUp
+main: io.github.cragz.numberswhatgoup.NumbersWhatGoUp
+version: 0.0.2
+database: true
+
+commands:
+   forcesave:
+      description: Forces the database to attempt to save everyone online's data.
+      usage: /forcesave
+      permission: NumbersWhatGoUp.admin
+      permission-message: I'm afraid I can't do that, Dave.
+
+   setskill:
+      description: Gives a player a set skill level in a particular discipline.
+      usage: /setskill <player> <skill> <value>
+      permission: NumbersWhatGoUp.admin
+      permission-message: I'm afraid I can't do that, Dave.
+
+   skills:
+      description: Shows a player their current skill levels.
+      usage: /skills
+      permission: NumbersWhatGoUp.player
+      permission-message: I'm afraid I can't do that, Dave.
+      
+   givescoreboard:
+      description: Adds a scoreboard to a player's head.
+      usage: /givescoreboard <player>
+      permission: NumbersWhatGoUp.player
+      permission-message: I'm afraid I can't do that, Dave.
+
+   mark:
+      description: Marks an item for recall
+      usage: /mark <name (Optional)>
+      permission: NumbersWhatGoUp.player
+      permission-message: I'm afraid I can't do that, Dave.
+
+   unmark:
+      description: Unmarks an item marked for recall
+      usage: /unmark
+      permission: NumbersWhatGoUp.player
+      permission-message: I'm afraid I can't do that, Dave.
+
+   playallsounds:
+      description: Plays all sounds in a really ugly way
+      usage: /playallsounds
+      permission: NumbersWhatGoUp.player
+      permission-message: I'm afraid I can't do that, Dave.
+
+permissions:
+   NumbersWhatGoUp.*:
+      description: Gives access to all NWGU commands.
+      children:
+         NumbersWhatGoUp.player: true
+   NumbersWhatGoUp.player:
+      description: A series of player-based permissions.
+      default: true

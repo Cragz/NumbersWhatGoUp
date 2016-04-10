@@ -1,0 +1,41 @@
+competenceTitles:
+
+   neophyte:
+      name: Neophyte
+      practitionerTitle: A neophyte
+      requirement: 30
+
+   novice:
+      name: Novice
+      practitionerTitle: A novice
+      requirement: 40
+
+   apprentice:
+      name: Apprentice
+      practitionerTitle: An apprentice
+      requirement: 50
+
+   journeyman:
+      name: Journeyman
+      practitionerTitle: A journeyman
+      requirement: 60
+
+   expert:
+      name: Expert
+      practitionerTitle: An expert
+      requirement: 70
+
+   adept:
+      name: Adept
+      practitionerTitle: An adept
+      requirement: 80
+
+   master:
+      name: Master
+      practitionerTitle: A master
+      requirement: 90
+
+   grandmaster:
+      name: Grandmaster
+      practitionerTitle: A grandmaster
+      requirement: 100
