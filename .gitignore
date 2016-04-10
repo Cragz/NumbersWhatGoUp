@@ -45,3 +45,20 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.classpath
+*.class
+*.jar
+*.xxx
+*.prefs
+.idea/
+.settings/
+target/
+build/
+bin/
+RandomNotes
+*.project
+Build.xml
+NumbersWhatGoUp.iml
+pom.xml
+PublishToWeb.xml
+PublishToLocal.xml
